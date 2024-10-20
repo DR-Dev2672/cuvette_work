@@ -27,8 +27,8 @@ function SignUp() {
         <h1 className=' text-center SignUp font-sans text-xl font-medium'>Sign Up</h1>
         <p className='text-center'>Lorem Ipsum is simply dummy text</p>
         <div className="imagecontainer  relative">
-          <input type="name"  className=' w-full' placeholder='Name' />
-          <img className='personicon absolute' src={imgPer} alt=""/>
+          <img className='personicon ' src={imgPer} alt=""/>
+          <input type="name"  className=' ' placeholder='Name' />
         </div>
 
         <input type="tel" placeholder='Phone no.'className='' />
