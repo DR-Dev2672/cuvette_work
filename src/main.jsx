@@ -8,7 +8,7 @@ import Verify from './components/Verify/Verify.jsx'
 import Layout from './components/Layout.jsx'
 import ValidateOTP from './components/ValidateOTP/ValidateOTP.jsx'
 import Interview from './components/Interview/Interview.jsx'
-import JobDetail from './components/JobDetail/JobDetail.jsx'
+import JobPost from './components/JobPost/JobPost.jsx'
 
 
 
@@ -19,7 +19,7 @@ const router=createBrowserRouter(
       <Route path='verify' element={<Verify/>}/>
       <Route path='validateotp' element={<ValidateOTP/>}/>
       <Route path='interview' element={<Interview/>}/>
-      <Route path='jobdetail' element={<JobDetail/>}/>
+      <Route path='jobpost' element={<JobPost/>}/>
     </Route>
   )
 )
